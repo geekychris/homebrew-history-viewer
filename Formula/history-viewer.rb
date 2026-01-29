@@ -5,10 +5,10 @@ class HistoryViewer < Formula
   
   if Hardware::CPU.arm?
     url "https://github.com/geekychris/history_viewer/releases/download/v1.2.4/history_viewer-darwin-arm64.tar.gz"
-    sha256 "bc1bfbb3aeb0f12372eb5c8ba824eb75733d41e30446e47cb61846ebda653c6f"
+    sha256 "8144b730971c5b340f450778b717d725e96e71ad7012519a11cf2626dc557d94"
   else
     url "https://github.com/geekychris/history_viewer/releases/download/v1.2.4/history_viewer-darwin-amd64.tar.gz"
-    sha256 "ee96ac7af98259db6f79d05482eb7fbe326b621b53dfca544ac2db355508c316"
+    sha256 "f283b9c38db211dd1fea55cf4fcfa8abb983e1028e87c98ee86d781dddfe1776"
   end
 
   def install
